@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(228, 228, 247);
+}
+nav{
+    /* background-color: aquamarine; */
+}
+nav ul li{
+    list-style:none ;
+}
+.App{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left{
+   
+    background-color:rgb(249, 249, 253);
+
+}
+.right{
+    background-color:rgb(249, 249, 253);
+    display: grid;
+    grid-template-rows: 10% 70% 20%;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    color: black;
+}
+.btn1{
+    border-radius: 30px;
+    background-color: orange;
+    color: antiquewhite;
+    border-style: none;
+    height: 20px;
+    width: 10vh;
+}
+.logo{
+    color:orange;
+    padding-left: 10vh;
+    padding: 30px;
+}
+.rect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 10vh;
+    background-color: rgb(5, 129, 119);
+    color: white;
+    
+    margin-left: 20px;
+}
+.conf{
+    margin: 0;
+    padding-left: 15px;
+    color: rgb(2, 37, 90);
+    font-size: 2rem;
+}
+.par1{
+
+    padding: 30px;
+}
+.btn2{
+    width: 30vh;
+    height:7vh;
+    padding:10px;
+    margin:20px;
+    background-color: rgb(5, 129, 119);
+   border-radius: 20px;
+   border-style: none;
+}
+.photo{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    /* background-color: rgb(42, 165, 128); */
+}
+img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 100%;
+    
+}
+.myicons{
+    display: flex;
+    
+}
+.icons{
+    width: 4vh;
+    height:4vh;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 10px;
+    margin-top: 10vh;
+
+}
+.fbox{
+    width: 15vh;
+    height: 5vh;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: grid;
+    margin: 20px;
+    float: right;
+    color: white;
+}
+.live{
+    float:right;
+}

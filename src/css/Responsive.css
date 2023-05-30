@@ -1,0 +1,38 @@
+*{
+    height:0;
+    width:0;
+}
+.container{
+    background-color: blue;
+    display:grid;
+    grid-template-rows: 2fr,1fr;
+}
+ul{
+    display:flex;
+    justify-content: end;
+    align-items:center
+}
+li{
+    list-style:none
+}
+.navigation{
+    background-color:rgb(42, 165, 159);
+}
+.navigation{
+    background-color:brown;
+}
+.icons{
+    display:none;
+}
+.nav{
+    display:none;
+}
+
+@media only screen and (max-width:560px){
+    .icons{
+        display:block;
+    }
+    .nav{
+        display:block;
+    }
+}
